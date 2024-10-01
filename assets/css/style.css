@@ -1409,7 +1409,7 @@ body.search-visible {
 	z-index: 1;
 	margin: 0 0 27px;
 }
-.features-icon::after {
+/* .features-icon::after {
 	content: "";
 	position: absolute;
 	left: 20px;
@@ -1420,7 +1420,7 @@ body.search-visible {
 	border-radius: 50%;
 	z-index: -1;
 	transition: .4s linear;
-}
+} */
 .features-content .title {
 	font-size: 20px;
 	color: var(--tg-white);
@@ -2870,7 +2870,7 @@ body.search-visible {
 	margin: 0 0 15px;
 }
 .section-title .title {
-	font-size: 50px;
+	font-size: 39px;
 	letter-spacing: -0.025em;
 	margin-bottom: 0;
 }
@@ -6352,13 +6352,13 @@ body.search-visible {
     border-radius: 0px 5px 5px 0px;
 }
 .product-bottom .action-button {
-    width: 55px;
+    padding: 10px;
     height: 55px;
     flex: 0 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
+    border-radius: 10px;
     font-size: 18px;
     color: var(--tg-white);
     background: var(--tg-secondary-color);

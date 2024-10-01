@@ -23,18 +23,52 @@ i[class*="flaticon-"] {
     line-height: 0;
 }
 
-.flaticon-tape-measure:before {
-    content: "\f101";
+/* first image */
+.flaticon-tape-measure {
+    background-image: url('https://cdn-icons-gif.flaticon.com/7920/7920938.gif');
+    background-size: contain; /* Adjust the image size */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    display: inline-block; /* Makes the element behave like an inline element with block-level capabilities */
+    width: 50px; /* Set the width according to your needs */
+    height: 50px; /* Set the height according to your needs */
+    background-color: transparent; /* Ensures the background is transparent */
+    border-radius: 10px;
 }
-.flaticon-abs:before {
-    content: "\f102";
+
+
+.flaticon-abs {
+    background-image: url('https://cdn-icons-gif.flaticon.com/16780/16780802.gif');
+    background-size: contain; /* Adjust the image size */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    display: inline-block; /* Makes the element behave like an inline element with block-level capabilities */
+    width: 50px; /* Set the width according to your needs */
+    height: 50px; /* Set the height according to your needs */
+    background-color: transparent; /* Ensures the background is transparent */
+    border-radius: 10px;
 }
-.flaticon-weight:before {
-    content: "\f103";
+.flaticon-weight {
+    background-image: url('https://cdn-icons-gif.flaticon.com/10398/10398539.gif');
+    background-size: contain; /* Adjust the image size */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    display: inline-block; /* Makes the element behave like an inline element with block-level capabilities */
+    width: 50px; /* Set the width according to your needs */
+    height: 50px; /* Set the height according to your needs */
+    background-color: transparent; /* Ensures the background is transparent */
+    border-radius: 10px;
 }
-.flaticon-test:before {
-    content: "\f104";
+
+/* second icon */
+.flaticon-test {
+    background-image: url('https://cdn-icons-gif.flaticon.com/8801/8801099.gif');
+    background-size: contain; /* Adjust the image size */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    display: inline-block; /* Makes the element behave like an inline element with block-level capabilities */
+    width: 50px; /* Set the width according to your needs */
+    height: 50px; /* Set the height according to your needs */
+    background-color: transparent; /* Ensures the background is transparent */
+    border-radius: 10px;
 }
+
 .flaticon-layout:before {
     content: "\f105";
 }
@@ -101,9 +135,9 @@ i[class*="flaticon-"] {
 .flaticon-supplement:before {
     content: "\f11a";
 }
-.flaticon-whey-protein-3:before {
+/* .flaticon-whey-protein-3:before {
     content: "\f11b";
-}
+} */
 .flaticon-strong-1:before {
     content: "\f11c";
 }
